@@ -1,0 +1,92 @@
+#content-container{
+    height:450px;
+    
+}
+
+#content-container::before{
+    content: "";
+    position: absolute;
+    background: url("../image/background/back1.jpg") no-repeat center center/cover;
+    width: 100%;
+    height: 55%;
+    z-index: -1;
+    opacity: 0.9;
+}
+.container1{
+    text-align: center;
+    padding: 20px;
+    color: black;
+    font-size: 20px;
+}
+.container1 p{
+
+    padding: 6px;
+}
+
+/* Facilities */
+
+.content-facilities h2{
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 35px;
+
+}
+.content-facilities h3{
+    text-align: center;
+    padding: 5px;
+    font-size: 25px;
+
+}
+#facilities {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+#facilities .f{
+    border: 2px solid black;
+    margin: 5px;
+    height: 300px;
+    width: 250px;
+    border-radius:10px;
+    text-align: center;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    margin: autos;
+}
+#facilities .f img{
+    padding: 15px;
+    height: 200px;
+    width: 200px;
+}
+
+
+
+/* Sponsers */
+
+.content-sponser{
+    background-color: grey;
+    height: 300px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 35px;
+    padding: 15px;
+}
+
+#sponsors{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 65px;
+
+}
+#sponsors img{
+    height: 120px;
+    width: 210px;
+}

@@ -1,0 +1,124 @@
+#contact-container1{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    margin-top:62px
+}
+#contact-container{
+margin-top: -2px;
+height: 995px;
+
+}
+.contact-content{
+
+    text-align: center;
+    padding: 25px;
+    font-size: 45px;
+    font-weight: bold;
+    color: floralwhite;
+    text-decoration: underline;
+
+    
+}
+
+
+
+#contact-container::before{
+
+    content: "";
+    position: absolute;
+    background: url("../image/background/back2.jpg") no-repeat center center/cover;
+    width: 100%;
+    height: 130%;
+    z-index: -1;
+    opacity: 0.6;
+
+
+}
+
+
+
+    
+.contact-form{
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 15px;
+    width: 600px;
+    height: 650px;
+}
+
+.contact-form form{
+
+width: 80%;
+
+}
+
+.contact-form label{
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+
+.contact-form input, .contact-form textarea {
+    
+    width: 100%;
+    border-color: black;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 15px;
+    padding: 10px;
+    outline: none;
+}
+
+
+.btn1{
+    padding: 12px;
+    margin: 15px 260px;
+    background-color: rgba(0, 0, 0, 0.685);
+    color: white;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.add{
+
+    background: black;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    height: 200px;
+    font-size: 30px;
+
+}
+#img1{
+    height: 44px;
+    width: 164px;
+
+}
+#img3{
+    height: 90px;
+    width: 270px;
+}
+
+.call{
+    display: inline-block
+}
+.call p{
+    margin-top:36px
+
+}
+
+#img2{
+    height: 75px;
+    width: 111px;
+}

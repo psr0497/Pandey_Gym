@@ -1,0 +1,31 @@
+
+
+.about-container p{
+
+    font-size:25px;
+    margin: 15px; 
+    padding: 15px;
+      }
+
+.about-gallary{
+text-align: center;
+font-size: 35px;
+padding: 15px;
+margin: 15px;
+text-decoration: underline;
+}
+
+.about-gallary h2{
+    margin: 35px;
+}
+
+
+.gallary{
+    display: inline-block;
+    margin: 10px;
+}
+
+.gallary img{
+    height: 280px;
+    width: 300px;
+}

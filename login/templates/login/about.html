@@ -1,0 +1,38 @@
+{% extends 'login/base.html' %}
+
+{%block title%}  About    {% endblock %}
+
+
+{%block body %}
+
+<section id="about">
+    <div class="about-container">
+        <p> Pandey Gym  the leading fitness center in India with world class health club equipment, gym trainers, group exercise classes, freestyle training & much more.</p>
+        <p > Pandey Gym is a No Judgment Gym that believes in making serious exercise fun by fusing fitness and entertainment. Join Pandey Gym for all your fitness needs!</p>
+        <p >  With thousands of convenient, welcoming locations worldwide, we'll help you get to a healthier place.
+            The inauguration is done by Sri Amitabh Bachchan . </p>
+    </div>
+        {% load static %}
+       
+        <div class="about-gallary">
+        <h2>  Gallary  </h2>
+        <div class="gallary">
+        
+            
+        {% for i in photo %}
+            
+            <img src='/media/{{i.images}}' alt="">
+            {% endfor %}
+       
+        </div>
+      
+    </div>
+
+  
+
+
+</section>
+
+
+
+{%endblock%}
